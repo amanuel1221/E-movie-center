@@ -6,7 +6,7 @@ const API_KEY =import.meta.env.VITE_API_KEY;;
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMG = "https://image.tmdb.org/t/p/w500";
 
-const movieStore = create((set) => ({
+const movieStore = create((set,get) => ({
   loading: false,
   error: null,
    favorites: [],
@@ -410,6 +410,8 @@ const movieStore = create((set) => ({
   },
 
   clearFavorites: () => set({ favorites: [] }),
+  setSearchQuery: (query) => set({ searchQuery: query }),
+
 
   // ========================================================
   // CLEAR
