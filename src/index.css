@@ -1,2 +1,23 @@
     /* src/index.css */
     @import 'tailwindcss';
+    body {
+  font-family: 'Roboto', sans-serif;
+  background-color: hsl(40%, 0%, 100%);
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+@variant dark (&:where(.dark, .dark *));
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar but keep scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
