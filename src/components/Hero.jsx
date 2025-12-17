@@ -12,10 +12,10 @@ export default function Hero() {
       }}
     >
      
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/30" />
       
       
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/30" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/25" />
 
      
       <motion.div
@@ -61,7 +61,7 @@ export default function Hero() {
       </motion.div>
 
       
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/90 to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/60 to-transparent" />
     </div>
   );
 }
