@@ -9,7 +9,7 @@ export default function Slider({ title, data = [], type }) {
     <section className="mb-12">
       <h2 className="text-2xl font-bold mb-4">{title}</h2>
 
-      <div className="flex gap-4 overflow-x-auto no-scrollbar snap-x snap-mandatory">
+      <div className="flex gap-4 overflow-x-auto no-scrollbar snap-x snap-mandatory" data-testid="slider-container">
         {data.map((item) => (
           <NavLink
             key={item.id}
