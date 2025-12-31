@@ -7,4 +7,8 @@
         tailwindcss(),
         // other plugins like react(), vue(), etc.
       ],
+    test: { environment: "jsdom",
+    globals: true,
+    setupFiles: "./src/tests/setup.js",
+    },
     });
