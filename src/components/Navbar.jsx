@@ -32,6 +32,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
           
           <div className="flex items-center gap-4 text-lg">
             <FaSearch
+            data-testid="search-icon" 
               onClick={() => setSearchOpen(true)}
               className="cursor-pointer hover:text-blue-500"
             />
@@ -44,6 +45,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
             </button>
 
             <button
+            aria-label="mobile-menu"
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden text-xl"
             >
