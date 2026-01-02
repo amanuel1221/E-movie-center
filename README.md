@@ -34,7 +34,51 @@ Repository: [GitHub Repo](https://github.com/amanuel1221/E-movie-center)
 
 ---
 
-## *** Application Pages & Demos ### 🏠 Homepage - Displays trending movies and TV shows. - Highlights featured content with banners. - Responsive layout for desktop and mobile. - Smooth scrolling demo: ![Homepage GIF](./screenshots/homepage.gif) --- ### 👥 People Page - Browse actors, directors, and crew members. - Shows biography, filmography, and profile images. - Interactive cards with hover effects. ![People GIF](./screenshots/people.gif) --- ### 🎬 Movie Page - Detailed movie information (title, release date, rating). - Poster, trailer, and description. - Cast list and related recommendations. ![Movie GIF](./screenshots/movie.gif) --- ### 📺 TV Page - Explore TV shows by season and episodes. - Episode details with thumbnails. - Track ongoing and completed series. ![TV GIF](./screenshots/tv.gif) --- ### 🔍 Search Page - Search movies, TV shows, or people. - Instant results with dynamic routing. - Supports keyword and advanced filters. ![Search GIF](./screenshots/search.gif) --- ### 🤝 Interactions Page - User interactions and engagement features. - Favorites, watchlist, and rating system. - Smooth UI transitions for adding/removing items. ![Interactions GIF](./screenshots/interactions.gif)
+## *** Application Pages & Demos
+
+### 🏠 Homepage - Displays trending movies and TV shows.
+- Highlights featured content with banners. 
+- Responsive layout for desktop and mobile. 
+- Smooth scrolling demo: 
+
+![Homepage GIF](./public/Screenshots/home-page.gif)
+
+ --- 
+ ### 👥 People Page - Browse actors, directors, and crew members.
+- Shows biography, filmography, and profile images.
+- Interactive cards with hover effects. 
+
+![People GIF](./public/Screenshots/peoples-page.gif) 
+
+--- 
+
+### 🎬 Movie Page - Detailed movie information (title, release date, rating). 
+- Poster, trailer, and description. 
+- Cast list and related recommendations. 
+
+![Movie GIF](./public/Screenshots/movies-page.gif)
+
+ ---
+ 
+ ### 📺 TV Page - Explore TV shows by season and episodes. 
+- Episode details with thumbnails. - Track ongoing and completed series.
+
+ ![TV GIF](./public/Screenshots/TV-shows.gif) 
+
+ --- 
+ ### 🔍 Search Page - Search movies, TV shows, or people.
+- Instant results with dynamic routing.
+- Supports keyword and advanced filters. 
+
+![Search GIF](./public/Screenshots/Searchs.gif) 
+
+--- 
+
+### 🤝 Interactions Page - User interactions and engagement features. 
+- Favorites, watchlist, and rating system. 
+- Smooth UI transitions for adding/removing items. 
+
+![Interactions GIF](./public/Screenshots/webs-interaction.gif)
 
 ## *** Installation & Setup
 
